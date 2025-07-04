@@ -7,7 +7,7 @@ from datetime import datetime, timedelta
 import os
 from functools import wraps
 
-app = Flask(_name_)
+app = Flask(__name__)
 app.secret_key = '0f022ab9d2a62da9e5a46f7f6ae86ae60ffb4073e7bbcd15741d6c2ccb3aa4b7'
 
 # AWS Configuration
