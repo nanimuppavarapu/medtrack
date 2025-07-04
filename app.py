@@ -8,7 +8,7 @@ import os
 from functools import wraps
 
 app = Flask(_name_)
-app.secret_key = '135805dcc18eda5583aef0eb7f2672c9b5c1b013ea9faf398951fab57f6e0ede'
+app.secret_key = '0f022ab9d2a62da9e5a46f7f6ae86ae60ffb4073e7bbcd15741d6c2ccb3aa4b7'
 
 # AWS Configuration
 AWS_REGION = 'us-east-1'
